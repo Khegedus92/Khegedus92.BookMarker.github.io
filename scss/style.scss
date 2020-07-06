@@ -1,0 +1,215 @@
+@import 'variables';
+@import 'mixin';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #edf7ed;
+}
+//Input form design
+#inputContainer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    background-color: #edf7ed;
+    font-family: 'Poppins';
+    float: right;
+    #firstStep {
+        width: 600px;
+        height: 85px;
+        background-color: $firststep-color;
+        clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+        position: absolute;
+        z-index: 3;
+        #firstForm {
+            @include firstform;
+            #title {
+                grid-area: title;
+                background-color: $input-color1;
+                border: none;
+                border-radius: 2px;
+                color: white;
+                font-size: 1.3rem;
+                font-family: 'Cinzel', serif;
+                &:active {
+                    color: white;
+                }
+            }
+            #genre {
+                grid-area: genre;
+                background-color: $input-color1;
+                border-radius: 2px;
+                &::placeholder {
+                    font-family: 'Poppins';
+                }
+            }
+            #pages {
+                grid-area: pages;
+                width: 8rem;
+                text-align: center;
+                background-color: $input-color1;
+                border: none;
+                border-radius: 2px;
+                color: white;
+                font-size: 1rem;
+                font-family: 'Cinzel', serif;
+                
+            }
+            #newOrFinished {
+                grid-area: neworfinished;
+                display: flex;
+                color: white;
+                #radioNew {
+                    margin-right: 1rem;
+                }
+                #radioFinished {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+    #secondStep {
+        display: flex;
+        width: 250px;
+        height: 85px;
+        margin-left: -5%;
+        z-index: 2;
+        background-color: $secondstep-color;
+        clip-path: polygon(0% 0%, 76% 0%, 100% 100%, 0% 100%);
+        position: relative;
+        left: 606px;
+        #secondForm {
+            display: inline-block;
+            width: 50%;
+            margin: auto;
+            
+        }
+    }
+    #thirdStep {
+        display: flex;
+        width: 300px;
+        margin-left: -3.4%;
+        z-index: 1;
+        background-color: $thirdstep-color;
+        clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+        position: relative;
+        left: 557px;
+        #thirdForm {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            #currentPage {
+                width: 9rem;
+                margin: auto 36px auto auto;
+                text-align: center;
+                background-color: $input-color1;
+                border: none;
+                border-radius: 2px;
+                color: white;
+                font-family: 'Cinzel', serif;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    #searchBar {
+        display: flex;
+        position: relative;
+        width: 767px;
+        height: 85px;
+        z-index: 5;
+        background-color: green;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 7.8% 100%);
+        right: -99px;
+        background-color: $searchbar-color;
+        #searchForm {
+            display: flex;
+            margin: auto auto auto 50px;
+            #searchInput {
+                margin: 3px;
+                border: none;
+                border-radius: 2px;
+                font-size: 1.1rem;
+                font-family: 'Cinzel', serif;
+                
+            }
+            #searchButton {
+                margin: 3px;
+                width: 4rem;
+                border: none;
+                background-color: $searchbutton-color;
+                font-family: 'Oxygen', sans-serif;
+                
+            }
+        }
+    }
+    .searchBarSecondStepIn {
+        transform: translateX(192px);
+        transition: transform 250ms ease-in-out;
+        transform-origin: right;
+    }
+    .searchBarSecondStepOut {
+        transform: translateX(0px);
+        transition: transform 250ms ease-in-out;
+        transform-origin: right;
+    }
+    .searchBarThirdStepIn {
+        transform: translateX(398px);
+        transition: transform 250ms ease-in-out;
+        transform-origin: right;
+    }
+    .searchBarThirdStepOut {
+        transform: translateX(192px);
+        transition: transform 250ms ease-in-out;
+        transform-origin: right;
+    }  
+}
+
+//Button design
+#addBook {
+    width: 70%;
+    height: 44px;
+    margin: 0 15% auto 15%;
+    text-align: center;
+    clip-path: polygon(0% 0%, 92.75% 0%, 95.7% 100%, 0% 100%);
+    border: none;
+    background-color: $addbookbutton-color1;
+    transition: ease-in-out 200ms;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+    &:hover {
+        background-color: $addbookbutton-color2; 
+    }
+}
+
+//Display Design
+#displayContainer {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins';
+    #displayAwaitedBooks {
+        @include displayBooks;
+    }
+    #displayCurrentBooks {
+        @include displayBooks;
+    }
+    #displayFinishedBooks {
+        @include displayBooks;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

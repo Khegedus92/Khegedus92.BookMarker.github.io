@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Oxygen:700|Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="inputContainer">
+
+        <div id="firstStep">
+            <form id="firstForm">
+                <input id="title" type="text" placeholder="Title">
+                <select name="genre" id="genre">
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="classic">Classic</option>
+                    <option value="comicBook">Comic-book</option>
+                    <option value="grapichNovel">Grapic-novel</option>
+                    <option value="detective">Detective</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="historical">Historical</option>
+                    <option value="horror">Horror</option>
+                    <option value="literary">Literary</option>
+                    <option value="romance">Romance</option>
+                    <option value="scifi">Sci-fi</option>
+                    <option value="shortStories">Short-stories</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="biography">Biography</option>
+                    <option value="cookBook">Cook-book</option>
+                    <option value="poetry">Poetry</option>
+                    <option value="esoteric">Esoteric</option>
+                </select>
+                <input id="pages" type="number" min="0" placeholder="Page number">
+
+                <div id="newOrFinished">
+                    <div id="radioNew">
+                        <input id="newBook" type="radio" onclick="newBookRadio()" name="newOrFinished" value="new">
+                        <label for="newBook">New</label>
+                    </div>
+                    <div id="radioFinished">
+                        <input id="finishedBook" type="radio" onclick ="finishedBookRadio()" name="newOrFinished" value="finished">
+                        <label for="finishedBook">Finished</label>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    
+        <div id="secondStep">
+            <form id="secondForm">
+                
+                    <div id="radioStartedBook">
+                        <input id="startedBook" type="radio" onclick="startedRadio()" name="startedBookOrNotStartedBook" value="started">
+                        <label for="startedBook">Started</label>
+                    </div>
+                    <div id="radioNotStarted">
+                        <input id="notStartedBook" type="radio" onclick="notStartedRadio()"name="startedBookOrNotStartedBook" value="notStarted">
+                        <label for="notStartedBook">Not Started</label>
+                    </div>
+                
+            </form>
+        </div>
+
+        <div id="thirdStep">
+            <form id="thirdForm">
+                <input id="currentPage" type="number" min="0" placeholder="Current page">
+            </form>
+        </div>
+
+        <div id="searchBar">
+            <form id="searchForm">
+                <input id="searchInput" type="text" onkeyup="search()" placeholder="Search">
+                <button id="searchButton">Find</button>
+            </form>
+        </div>
+
+    </div>
+
+    <button id="addBook" type="button" form="firstForm" onclick="addNewBook()">Add</button>
+
+    <!--|||||||||||||BOOKS DISPLAY|||||||||||||||||-->
+    <div id="displayContainer">
+    
+        <div id="displayAwaitedBooks">
+            <h2>Books to read</h2>
+            <ul id="awaitedBookList">
+            <!--Displays the not yet started books here-->
+            </ul>
+        </div>
+        <div id="displayCurrentBooks">
+            <h2>Started books</h2>
+            <ul id="currentBookList">
+            <!--Displays the started but not yet finished books here-->
+            </ul>
+        </div>
+        <div id="displayFinishedBooks">
+            <h2>Finished books</h2>
+            <ul id="finishedBookList">
+            <!--Displays the finished books here-->
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

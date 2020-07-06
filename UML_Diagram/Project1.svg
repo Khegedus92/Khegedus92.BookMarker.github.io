@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Réteg_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 3840" style="enable-background:new 0 0 1920 3840;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:120px;}
+	.st3{font-size:36px;}
+	.st4{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st5{font-size:59px;}
+	.st6{opacity:0.5;fill:#39B54A;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st7{opacity:0.5;fill:#8DC63F;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st8{opacity:0.49;fill:#D7DF23;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st9{opacity:0.5;fill:none;stroke:#D7DF23;stroke-width:27;stroke-miterlimit:10;}
+	.st10{opacity:0.5;fill:none;stroke:#8DC63F;stroke-width:27;stroke-miterlimit:10;}
+	.st11{font-size:33px;}
+	.st12{font-size:30px;}
+	.st13{font-size:41px;}
+	.st14{opacity:0.49;fill:#8DC63F;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st15{opacity:0.49;fill:#39B54A;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st16{opacity:0.5;fill:none;stroke:#39B54A;stroke-width:27;stroke-miterlimit:10;}
+	.st17{font-size:60.3225px;}
+	.st18{font-size:54.8387px;}
+	.st19{font-size:65.8064px;}
+	.st20{opacity:0.49;fill:#009444;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st21{opacity:0.5;fill:none;stroke:#009444;stroke-width:27;stroke-miterlimit:10;}
+</style>
+<rect x="110.7" y="192" class="st0" width="239.8" height="143.2"/>
+<text transform="matrix(1 0 0 1 122.6167 277.2283)"><tspan x="0" y="0" class="st1 st2">Title</tspan><tspan x="78.7" y="43.2" class="st1 st3">text</tspan></text>
+<rect x="594.9" y="192" class="st0" width="365.1" height="143.2"/>
+<text transform="matrix(1 0 0 1 625.6399 277.2283)"><tspan x="0" y="0" class="st1 st2">Genre</tspan><tspan x="72.4" y="43.2" class="st1 st3">dropdown</tspan></text>
+<rect x="506.5" y="770" class="st0" width="831.9" height="143.2"/>
+<text transform="matrix(1 0 0 1 506.702 855.201)"><tspan x="0" y="0" class="st1 st2">New or finished?</tspan><tspan x="321.2" y="43.2" class="st1 st3">radio button</tspan></text>
+<rect x="226.2" y="1246.6" class="st0" width="450" height="143.2"/>
+<text transform="matrix(1 0 0 1 239.643 1331.8252)"><tspan x="0" y="0" class="st1 st2">Finished</tspan><tspan x="157.3" y="43.2" class="st1 st3">section</tspan></text>
+<rect x="1283" y="1246.6" class="st0" width="239.8" height="143.2"/>
+<text transform="matrix(1 0 0 1 1289.1644 1331.8252)"><tspan x="0" y="0" class="st1 st2">New</tspan><tspan x="59.4" y="43.2" class="st1 st3">section</tspan></text>
+<rect x="110.7" y="179" class="st4" width="239.8" height="162.4"/>
+<rect x="616.3" y="179" class="st4" width="326.3" height="162.4"/>
+<rect x="506.5" y="760.4" class="st4" width="841.1" height="162.4"/>
+<line class="st4" x1="230.6" y1="341.4" x2="230.6" y2="386.6"/>
+<line class="st4" x1="779.4" y1="341.4" x2="779.4" y2="386.6"/>
+<line class="st4" x1="1449.7" y1="341.4" x2="1449.7" y2="386.6"/>
+<line class="st4" x1="230.6" y1="386.6" x2="1449.7" y2="386.6"/>
+<line class="st4" x1="451.2" y1="1124.3" x2="451.2" y2="1227.6"/>
+<line class="st4" x1="1402.9" y1="1182.4" x2="1402.9" y2="1227.6"/>
+<line class="st4" x1="813.4" y1="1182.4" x2="1402.9" y2="1182.4"/>
+<line class="st4" x1="927" y1="1182.4" x2="927" y2="919.8"/>
+<rect x="1210.5" y="1613.9" class="st0" width="424.8" height="143.2"/>
+<text transform="matrix(1 0 0 1 1216.7969 1699.1106)"><tspan x="0" y="0" class="st1 st2">Started?</tspan><tspan x="33.8" y="43.2" class="st1 st3">radio button(YESorNO)</tspan></text>
+<rect x="1196.1" y="1604.3" class="st4" width="430.9" height="162.4"/>
+<line class="st4" x1="1411.6" y1="1604.3" x2="1411.6" y2="1389.9"/>
+<ellipse class="st4" cx="465" cy="1308.8" rx="327.9" ry="81.1"/>
+<ellipse class="st4" cx="1402.9" cy="1308.8" rx="327.9" ry="81.1"/>
+<rect x="331.3" y="2038.6" class="st0" width="239.8" height="143.2"/>
+<text transform="matrix(1 0 0 1 378.7817 2123.7969)"><tspan x="0" y="0" class="st1 st2">No</tspan><tspan x="18.2" y="43.2" class="st1 st3">section</tspan></text>
+<rect x="1283" y="2038.6" class="st0" width="239.8" height="143.2"/>
+<text transform="matrix(1 0 0 1 1316.5844 2123.7969)"><tspan x="0" y="0" class="st1 st2">Yes</tspan><tspan x="32" y="43.2" class="st1 st3">section</tspan></text>
+<ellipse class="st4" cx="451.2" cy="2110.2" rx="327.9" ry="81.1"/>
+<ellipse class="st4" cx="1411.6" cy="2110.2" rx="327.9" ry="81.1"/>
+<line class="st4" x1="451.2" y1="2029.1" x2="451.2" y2="1974.6"/>
+<line class="st4" x1="1411.6" y1="2029.1" x2="1411.6" y2="1974.6"/>
+<line class="st4" x1="451.2" y1="1974.6" x2="1411.6" y2="1974.6"/>
+<line class="st4" x1="1402.9" y1="1821.6" x2="1402.9" y2="1767.1"/>
+<line class="st4" x1="931.4" y1="1974.6" x2="931.4" y2="1821.6"/>
+<line class="st4" x1="931.4" y1="1821.6" x2="1406.1" y2="1821.6"/>
+<rect x="1137.2" y="2450.5" class="st0" width="548.9" height="158.3"/>
+<text transform="matrix(1 0 0 1 1138.2595 2535.7285)"><tspan x="0" y="0" class="st1 st2">Pages read</tspan><tspan x="213.3" y="60" class="st1 st3">number</tspan></text>
+<rect x="1129.7" y="2438.8" class="st4" width="563.8" height="179.3"/>
+<rect x="1267.1" y="185.9" class="st0" width="365.1" height="155.5"/>
+<text transform="matrix(1 0 0 1 1301.4995 271.1001)"><tspan x="0" y="0" class="st1 st2">Pages</tspan><tspan x="88.1" y="60" class="st1 st3">number</tspan></text>
+<rect x="1288.5" y="172.9" class="st4" width="326.3" height="168.5"/>
+<line class="st4" x1="927" y1="760.4" x2="927" y2="386.6"/>
+<line class="st4" x1="1402.9" y1="2438.8" x2="1402.9" y2="2192"/>
+<rect x="1298.3" y="2827.4" class="st0" width="209.1" height="138.9"/>
+<text transform="matrix(1 0 0 1 1351.5323 2869.323)"><tspan x="0" y="0" class="st1 st5">Add</tspan><tspan x="-0.6" y="43.2" class="st1 st3">button</tspan></text>
+<circle class="st6" cx="1402.9" cy="2872.7" r="74.9"/>
+<rect x="331.3" y="2337.2" class="st0" width="209.1" height="138.9"/>
+<text transform="matrix(1 0 0 1 384.5151 2379.1089)"><tspan x="0" y="0" class="st1 st5">Add</tspan><tspan x="-0.6" y="43.2" class="st1 st3">button</tspan></text>
+<circle class="st7" cx="435.8" cy="2382.5" r="74.9"/>
+<rect x="331.3" y="1537" class="st0" width="209.1" height="138.9"/>
+<text transform="matrix(1 0 0 1 384.5151 1578.8607)"><tspan x="0" y="0" class="st1 st5">Add</tspan><tspan x="-0.6" y="43.2" class="st1 st3">button</tspan></text>
+<circle class="st8" cx="435.8" cy="1582.3" r="74.9"/>
+<line class="st4" x1="435.8" y1="1507.4" x2="435.8" y2="1389.6"/>
+<line class="st4" x1="435.8" y1="2309.8" x2="435.8" y2="2192"/>
+<line class="st4" x1="1402.9" y1="2797.8" x2="1402.9" y2="2618.1"/>
+<line class="st9" x1="916.5" y1="1013.2" x2="1808.2" y2="1013.2"/>
+<line class="st9" x1="1818.9" y1="1029.3" x2="1818.9" y2="42.7"/>
+<line class="st9" x1="35.1" y1="1695.1" x2="35.1" y2="42.7"/>
+<line class="st9" x1="927" y1="1721.8" x2="927" y2="1029.3"/>
+<line class="st9" x1="19.2" y1="1709.5" x2="910.8" y2="1709.5"/>
+<line class="st10" x1="931.4" y1="2528.1" x2="931.4" y2="1835.6"/>
+<line class="st10" x1="25.5" y1="2514.6" x2="917.2" y2="2514.6"/>
+<line class="st10" x1="916.5" y1="1821.5" x2="1808.2" y2="1821.5"/>
+<line class="st10" x1="1818.9" y1="1832.2" x2="1818.9" y2="42.7"/>
+<line class="st10" x1="39.4" y1="2498.7" x2="39.4" y2="1726.4"/>
+<rect x="621.3" y="1427.4" class="st0" width="289.6" height="271.8"/>
+<text transform="matrix(1 0 0 1 724.552 1450.865)"><tspan x="0" y="0" class="st1 st11">1.Title</tspan><tspan x="-15.6" y="39.6" class="st1 st11">2. Genre</tspan><tspan x="-14.6" y="79.2" class="st1 st11">3. Pages</tspan><tspan x="-18.3" y="118.8" class="st1 st11">4. Rating</tspan><tspan x="32.6" y="154.8" class="st1 st12">+</tspan><tspan x="-57.7" y="198" class="st1 st3">FINISHED bar</tspan></text>
+<circle class="st8" cx="769.2" cy="1553.7" r="141.4"/>
+<rect x="668.6" y="1162.6" class="st0" width="144.8" height="40.6"/>
+<text transform="matrix(1 0 0 1 685.6813 1191.7339)" class="st1 st13">Rating</text>
+<rect x="663.7" y="1152.1" class="st4" width="149.8" height="51.2"/>
+<line class="st4" x1="451.2" y1="1182.4" x2="660.9" y2="1182.4"/>
+<rect x="380" y="1039.9" class="st0" width="142.5" height="84.4"/>
+<text transform="matrix(1 0 0 1 388.6152 1069.0405)"><tspan x="0" y="0" class="st1 st13">Not yet </tspan><tspan x="17.4" y="49.2" class="st1 st13">rated</tspan></text>
+<rect x="376.3" y="1029.3" class="st4" width="149.8" height="95"/>
+<line class="st4" x1="747.7" y1="1082.1" x2="747.7" y2="1152.1"/>
+<line class="st4" x1="526.1" y1="1082.1" x2="750.1" y2="1082.1"/>
+<rect x="627" y="2232.9" class="st0" width="289.6" height="271.8"/>
+<text transform="matrix(1 0 0 1 730.1951 2256.3145)"><tspan x="0" y="0" class="st1 st11">1.Title</tspan><tspan x="-15.6" y="39.6" class="st1 st11">2. Genre</tspan><tspan x="-14.6" y="79.2" class="st1 st11">3. Pages</tspan><tspan x="32.6" y="115.2" class="st1 st12">+</tspan><tspan x="-51.4" y="151.2" class="st1 st12">Not yet started</tspan></text>
+<circle class="st14" cx="774.8" cy="2359.2" r="141.4"/>
+<rect x="1512.7" y="2722.1" class="st0" width="289.6" height="271.8"/>
+<text transform="matrix(1 0 0 1 1615.9156 2745.488)"><tspan x="0" y="0" class="st1 st11">1.Title</tspan><tspan x="-15.6" y="39.6" class="st1 st11">2. Genre</tspan><tspan x="-14.6" y="79.2" class="st1 st11">3. Pages</tspan><tspan x="-33" y="118.8" class="st1 st11">4. Progress</tspan><tspan x="32.6" y="154.8" class="st1 st12">+</tspan><tspan x="-66.6" y="198" class="st1 st3">PROGRESS bar</tspan></text>
+<circle class="st15" cx="1656.5" cy="2849.3" r="141.4"/>
+<line class="st10" x1="510.8" y1="2382.5" x2="636.5" y2="2382.5"/>
+<line class="st9" x1="508.2" y1="1582.3" x2="633.9" y2="1582.3"/>
+<line class="st16" x1="1479.4" y1="2871.2" x2="1516.8" y2="2871.2"/>
+<line class="st16" x1="1818.9" y1="2990.7" x2="1818.9" y2="42.7"/>
+<line class="st16" x1="60.1" y1="3004.1" x2="1832.2" y2="3004.1"/>
+<line class="st16" x1="43.9" y1="3017.5" x2="43.9" y2="2529.7"/>
+<rect x="1551" y="3230.4" class="st0" width="228.1" height="100.1"/>
+<text transform="matrix(1 0 0 1 1559.2318 3272.2568)"><tspan x="0" y="0" class="st1 st5">Progress</tspan><tspan x="45.8" y="43.2" class="st1 st3">number</tspan></text>
+<polygon class="st4" points="1588.2,3330.5 1516.8,3264.2 1588.2,3198 1730.9,3198 1802.3,3264.2 1730.9,3330.5 "/>
+<line class="st4" x1="1657.5" y1="3198" x2="1657.5" y2="2987.8"/>
+<line class="st4" x1="1383.8" y1="3264.2" x2="1516.8" y2="3264.2"/>
+<line class="st4" x1="1383.8" y1="3264.2" x2="1383.8" y2="3099.1"/>
+<line class="st4" x1="1383.8" y1="3101.1" x2="1656.5" y2="3101.1"/>
+<line class="st4" x1="1411.6" y1="3264.2" x2="1454.1" y2="3244.3"/>
+<line class="st4" x1="1411.6" y1="3264.2" x2="1450.3" y2="3280.4"/>
+<line class="st4" x1="1362.6" y1="3148.2" x2="1383.8" y2="3120.1"/>
+<line class="st4" x1="1383.8" y1="3120.1" x2="1402.9" y2="3148.2"/>
+<line class="st4" x1="1600" y1="3122.1" x2="1642.6" y2="3102.1"/>
+<line class="st4" x1="1602" y1="3083.8" x2="1640.6" y2="3100"/>
+<line class="st4" x1="1637.5" y1="3153.6" x2="1656.5" y2="3181.7"/>
+<line class="st4" x1="1654.4" y1="3181.7" x2="1675.7" y2="3153.6"/>
+<rect x="1551" y="3470.8" class="st0" width="228.1" height="100.1"/>
+<text transform="matrix(1 0 0 1 1561.0311 3512.6443)"><tspan x="0" y="0" class="st1 st5">Finished</tspan><tspan x="49.8" y="43.2" class="st1 st3">section</tspan></text>
+<ellipse class="st4" cx="1668.1" cy="3514.7" rx="134.1" ry="81.1"/>
+<line class="st4" x1="1659.5" y1="3435.6" x2="1659.5" y2="3330.5"/>
+<rect x="390.4" y="3225.2" class="st0" width="555.8" height="496.8"/>
+<text transform="matrix(1.05 0 0 1 588.5203 3268.0024)"><tspan x="0" y="0" class="st1 st17">1.Title</tspan><tspan x="-28.4" y="72.4" class="st1 st17">2. Genre</tspan><tspan x="-26.6" y="144.8" class="st1 st17">3. Pages</tspan><tspan x="-33.5" y="217.2" class="st1 st17">4. Rating</tspan><tspan x="59.6" y="283" class="st1 st18">+</tspan><tspan x="-105.5" y="361.9" class="st1 st19">FINISHED bar</tspan></text>
+<circle class="st20" cx="666.4" cy="3470.8" r="271.4"/>
+<rect x="1137.2" y="3481.5" class="st0" width="163.7" height="50.1"/>
+<text transform="matrix(1 0 0 1 1139.3856 3523.3689)" class="st1 st5">Rating</text>
+<rect x="1137.2" y="3470.4" class="st4" width="168.5" height="73"/>
+<line class="st21" x1="935.9" y1="3503.4" x2="1137.2" y2="3506.5"/>
+<line class="st21" x1="60.1" y1="3784.6" x2="1832.2" y2="3790.6"/>
+<line class="st21" x1="43.9" y1="3793.6" x2="43.9" y2="3017.5"/>
+<line class="st21" x1="1818.9" y1="3776.3" x2="1818.9" y2="3017.5"/>
+<line class="st21" x1="1305.7" y1="3509.1" x2="1533.5" y2="3512.7"/>
+<line class="st9" x1="50.9" y1="56.4" x2="1802.1" y2="56.4"/>
+</svg>

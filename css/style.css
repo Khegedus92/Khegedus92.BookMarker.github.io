@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edf7ed;
+}
+
+#inputContainer {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  background-color: #edf7ed;
+  font-family: "Poppins";
+  float: right;
+}
+#inputContainer #firstStep {
+  width: 600px;
+  height: 85px;
+  background-color: #baccba;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  z-index: 3;
+}
+#inputContainer #firstStep #firstForm {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-areas: "title title genre genre" "pages  neworfinished neworfinished neworfinished";
+  grid-gap: 2px;
+}
+#inputContainer #firstStep #firstForm #title {
+  grid-area: title;
+  background-color: #a5b6a5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Cinzel", serif;
+}
+#inputContainer #firstStep #firstForm #title:active {
+  color: white;
+}
+#inputContainer #firstStep #firstForm #genre {
+  grid-area: genre;
+  background-color: #a5b6a5;
+  border-radius: 2px;
+}
+#inputContainer #firstStep #firstForm #genre::placeholder {
+  font-family: "Poppins";
+}
+#inputContainer #firstStep #firstForm #pages {
+  grid-area: pages;
+  width: 8rem;
+  text-align: center;
+  background-color: #a5b6a5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 1rem;
+  font-family: "Cinzel", serif;
+}
+#inputContainer #firstStep #firstForm #newOrFinished {
+  grid-area: neworfinished;
+  display: flex;
+  color: white;
+}
+#inputContainer #firstStep #firstForm #newOrFinished #radioNew {
+  margin-right: 1rem;
+}
+#inputContainer #firstStep #firstForm #newOrFinished #radioFinished {
+  margin-left: 1rem;
+}
+#inputContainer #secondStep {
+  display: flex;
+  width: 250px;
+  height: 85px;
+  margin-left: -5%;
+  z-index: 2;
+  background-color: #d3e0d3;
+  clip-path: polygon(0% 0%, 76% 0%, 100% 100%, 0% 100%);
+  position: relative;
+  left: 606px;
+}
+#inputContainer #secondStep #secondForm {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#inputContainer #thirdStep {
+  display: flex;
+  width: 300px;
+  margin-left: -3.4%;
+  z-index: 1;
+  background-color: #deebde;
+  clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+  position: relative;
+  left: 557px;
+}
+#inputContainer #thirdStep #thirdForm {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+#inputContainer #thirdStep #thirdForm #currentPage {
+  width: 9rem;
+  margin: auto 36px auto auto;
+  text-align: center;
+  background-color: #a5b6a5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: "Cinzel", serif;
+  font-size: 1.1rem;
+}
+#inputContainer #searchBar {
+  display: flex;
+  position: relative;
+  width: 767px;
+  height: 85px;
+  z-index: 5;
+  background-color: green;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 7.8% 100%);
+  right: -99px;
+  background-color: #deebde;
+}
+#inputContainer #searchBar #searchForm {
+  display: flex;
+  margin: auto auto auto 50px;
+}
+#inputContainer #searchBar #searchForm #searchInput {
+  margin: 3px;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.1rem;
+  font-family: "Cinzel", serif;
+}
+#inputContainer #searchBar #searchForm #searchButton {
+  margin: 3px;
+  width: 4rem;
+  border: none;
+  background-color: #beac94;
+  font-family: "Oxygen", sans-serif;
+}
+#inputContainer .searchBarSecondStepIn {
+  transform: translateX(192px);
+  transition: transform 250ms ease-in-out;
+  transform-origin: right;
+}
+#inputContainer .searchBarSecondStepOut {
+  transform: translateX(0px);
+  transition: transform 250ms ease-in-out;
+  transform-origin: right;
+}
+#inputContainer .searchBarThirdStepIn {
+  transform: translateX(398px);
+  transition: transform 250ms ease-in-out;
+  transform-origin: right;
+}
+#inputContainer .searchBarThirdStepOut {
+  transform: translateX(192px);
+  transition: transform 250ms ease-in-out;
+  transform-origin: right;
+}
+
+#addBook {
+  width: 70%;
+  height: 44px;
+  margin: 0 15% auto 15%;
+  text-align: center;
+  clip-path: polygon(0% 0%, 92.75% 0%, 95.7% 100%, 0% 100%);
+  border: none;
+  background-color: #beac94;
+  transition: ease-in-out 200ms;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+#addBook:hover {
+  background-color: #b49874;
+}
+
+#displayContainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  font-family: "Poppins";
+}
+#displayContainer #displayAwaitedBooks {
+  width: 33.3333333333%;
+  text-align: center;
+}
+#displayContainer #displayCurrentBooks {
+  width: 33.3333333333%;
+  text-align: center;
+}
+#displayContainer #displayFinishedBooks {
+  width: 33.3333333333%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
